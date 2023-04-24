@@ -1,0 +1,35 @@
+ body,
+html {
+    margin: 0;
+    text-align: center;
+}
+
+.grid-container{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap:30px;
+}
+.card{
+    background-color: aquamarine;
+}
+.first{
+    grid-column: span 2;
+}
+
+.grid-containerbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px;
+    gap: 30px;
+}
+.second{
+    grid-column: span 3;
+}
+.grid-containerbox .card{
+    background-color: antiquewhite;
+}
+
+
+
+
